@@ -3,6 +3,7 @@ School code parsing and insert to DB
 
 ## Usage
 place school code xlsx file in same directory (if default provided xls file is deprecated) and run this.
+file could be downloaded at https://www.code.go.kr/index.do
 
 ```bash
 python -m school_code_util -f <filename> -u <db username> -p <db password>
